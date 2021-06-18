@@ -112,8 +112,7 @@ h2{
     width: calc( 100% / 6 - 16px);
     height: 180px;
     margin: 8px;
-    background-color: yellow;
-    position: relative;
+
 }
 
 .col{
@@ -125,7 +124,7 @@ h2{
 
 .metal{
     background-image: url(../img/metal_lifting.jpg);
-    /* margin-left: 20px; */
+    
 }
 
 .stranger{
@@ -146,7 +145,7 @@ h2{
 
 .sinister{
     background-image: url(../img/sinister.jpeg);
-    /* margin-right: 20px; */
+
 }
 
 /* INSERIMENTO DIDASCALIA PODCAST */
@@ -193,3 +192,14 @@ h2{
 .mix{
     background-image: url(../img/mixdaily.jpeg);
 }
+
+/* <!-- TERZA SEZIONE DI BRANI --> */
+
+
+.artista img{
+    width: 100%;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+
