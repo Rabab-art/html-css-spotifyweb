@@ -89,15 +89,17 @@ main{
 
 .menu a:hover{
     border-bottom: 3px solid greenyellow;
-    border-width: 5px;
-    
+    border-width: 5px;   
 }
 
 /* CREAZIONE GRIGLIA PER ISERIMENTO  COPERTINE PODCAST */
 
+
+
 h2{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 15px;
+    margin-left: 28px;
 }
 .row{
     display: flex;
@@ -106,8 +108,8 @@ h2{
 }
 
 .col{
-    flex-grow: 1;
-    /* width: calc( 100% / 6 - 14px); */
+    /* flex-grow: 1; */
+    width: calc( 100% / 6 - 16px);
     height: 180px;
     margin: 8px;
     background-color: yellow;
@@ -156,6 +158,7 @@ h2{
     margin: 8px;
     position: relative;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .row {
@@ -172,4 +175,21 @@ h2{
     font-size: 12px;
     margin-top: 5px;
     color: rgb(189, 189, 189);
+}
+
+/* <!-- SECONDA SEZIONE BRANI --> */
+#caption-playlist{
+    margin-left: 28px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: rgb(189, 189, 189);
+
+}
+
+.radar{
+    background-image: url(../img/radar.jpeg);
+}
+
+.mix{
+    background-image: url(../img/mixdaily.jpeg);
 }
