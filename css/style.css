@@ -63,20 +63,57 @@ main{
 
 .player{
     background-color: #333;
-    height: 80px; 
+    height: 80px;
 
 }
 
 
 /* LEFT-BAR */
 
+.left-bar{
+    color: white;
+}
+
+.left-bar a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
 .logo{
     width: 150px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
+.list li{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
 
+.list li:hover{
+    border-left: 5px solid greenyellow;
+}
 
+.playlist h5{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.playlist li{
+    margin-left: 20px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-top:10px ;
+    color: grey;
+    font-size: 15px;
+}
+
+.fa-plus-square:before {
+    content: "\f0fe";
+    font-size: 30px;
+    margin-right: 10px;
+}
 
 
 
