@@ -67,6 +67,38 @@ main{
 
 }
 
+
+/* LEFT-BAR */
+
+.logo{
+    width: 150px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
+.up-grade{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+
 /* MAIN */
 
 /* INSERIMENTO MENU' */
