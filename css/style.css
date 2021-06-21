@@ -78,7 +78,7 @@ main{
 
 .left-bar a{
     color: grey;
-    margin-left: 20px;
+    
     text-decoration: none;
 }
 
@@ -88,10 +88,7 @@ main{
     margin-bottom: 20px;
 }
 
-.list li{
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
+
 .home2{
     border-left: 5px solid greenyellow;
 }
@@ -117,18 +114,22 @@ main{
 .fa-plus-square:before {
     content: "\f0fe";
     font-size: 30px;
-    margin-right: 10px;
 }
 
 .user{
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 5px;
+    left: 15px;
+}
+
+.user li{
+    list-style-type:none;
+    padding: 5px;
 }
 
 .up{
     border-bottom: 2px solid white;
-    margin-left: 20px;
+    width: auto;
 }
 
 
@@ -152,13 +153,14 @@ main{
 
 /* INSERIMENTO MENU' */
 
-.menu ul li{
+
+.menu {
     margin-top: 90px;
-    display: inline-block;
+    
     padding: 10px;
 }
 
-.menu a{
+.row a{
     text-decoration: none;
     color:grey;
     font-weight: 400;
@@ -172,7 +174,7 @@ main{
     border-bottom: 3px solid greenyellow;
     border-width: 5px;
 }
-.menu a:hover{
+.row a:hover{
     color: white; 
 }
 
@@ -211,13 +213,50 @@ h2{
 }
 
 
+@media (max-width: 576px) { 
+
+    .menu .col-sm{
+        width: calc( 100% / 3 - 16px);
+        font-size: 10px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    
+
+    .col-sm{
+        
+        width: calc( 100% / 2 - 16px);
+
+    }
+
+    .col-4{
+        width: calc( 100% / 4 - 0px);
+    }
+
+    .row-footer{
+    justify-content: space-between;
+    margin: 0;
+    }
+    .up-grade{
+        width: 200px;
+        font-size: 10px;
+        float: right;
+        margin-top: 20px;
+       
+    }
+ }
 
 
 /* INSERIMENTO DIDASCALIA PODCAST */
 
- h5{
-     text-align:center;
-   padding: 2px;
+.row-text h5, p {
+    padding: 2px;
+    text-align: center;
 }
 
  p{
@@ -303,7 +342,10 @@ footer{
 // No media query since this is the default in Bootstrap
 
 /* Small  */
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+
+
+ }
 
  /* Medium  */
 @media (min-width: 768px) { ... }
