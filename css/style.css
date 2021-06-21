@@ -70,12 +70,14 @@ main{
 
 /* LEFT-BAR */
 
+
 .left-bar{
     color: white;
+    position: relative;
 }
 
 .left-bar a{
-    color: white;
+    color: grey;
     margin-left: 20px;
     text-decoration: none;
 }
@@ -90,9 +92,11 @@ main{
     margin-top: 10px;
     margin-bottom: 15px;
 }
-
-.list li:hover{
+.home2{
     border-left: 5px solid greenyellow;
+}
+.list a:hover{
+    color: white;
 }
 
 .playlist h5{
@@ -106,7 +110,8 @@ main{
     margin-bottom: 10px;
     margin-top:10px ;
     color: grey;
-    font-size: 15px;
+    font-size: 12px;
+    
 }
 
 .fa-plus-square:before {
@@ -115,10 +120,19 @@ main{
     margin-right: 10px;
 }
 
+.user{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
-
-
-
+.up{
+    border-bottom: 2px solid white;
+    margin-left: 20px;
+}
+.list-icon{
+    padding
+}
 
 /* HEADER */
 
@@ -148,7 +162,7 @@ main{
 
 .menu a{
     text-decoration: none;
-    color: white;
+    color:grey;
     font-weight: 400;
 }
 
@@ -156,9 +170,12 @@ main{
     text-align: center;
 }
 
-.menu a:hover{
+.home{
     border-bottom: 3px solid greenyellow;
-    border-width: 5px;   
+    border-width: 5px;
+}
+.menu a:hover{
+    color: white; 
 }
 
 /* CREAZIONE GRIGLIA PER ISERIMENTO  COPERTINE PODCAST */
@@ -174,72 +191,38 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+.row-text{
+    display: flex;
+    justify-content: center;
 }
 
 .col{
     /* flex-grow: 1; */
     width: calc( 100% / 6 - 16px);
-    height: 180px;
+    /* height: 180px; */
     margin: 8px;
+    justify-items: center;
 
 }
 
-.col{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
 
-.metal{
-    background-image: url(../img/metal_lifting.jpg);
-    
-}
 
-.stranger{
-    background-image: url(../img/stranger.jpeg);
-}
-
-.place{
-    background-image: url(../img/aquietplace.jpeg);
-}
-
-.split{
-    background-image: url(../img/split.jpeg);
-}
-
-.wellness{
-    background-image: url(../img/cure.jpeg);
-}
-
-.sinister{
-    background-image: url(../img/sinister.jpeg);
-
-}
 
 /* INSERIMENTO DIDASCALIA PODCAST */
 
-.col-titol{
-
-    width: calc( 100% / 6 - 16px);
-    height: 50px;
-    margin: 8px;
-    position: relative;
-    justify-content: center;
-    margin-bottom: 50px;
+ h5{
+     text-align:center;
+   padding: 2px;
 }
 
-.row {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.col-titol h5{
-    text-align: center;
-    padding: 2px;
-}
-.col-titol p{
-    text-align: center;
+ p{
     font-size: 12px;
     margin-top: 5px;
     color: rgb(189, 189, 189);
@@ -254,13 +237,6 @@ h2{
 
 }
 
-.radar{
-    background-image: url(../img/radar.jpeg);
-}
-
-.mix{
-    background-image: url(../img/mixdaily.jpeg);
-}
 
 /* <!-- TERZA SEZIONE DI BRANI --> */
 
