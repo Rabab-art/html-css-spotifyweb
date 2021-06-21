@@ -130,9 +130,7 @@ main{
     border-bottom: 2px solid white;
     margin-left: 20px;
 }
-.list-icon{
-    padding
-}
+
 
 /* HEADER */
 
@@ -206,7 +204,7 @@ h2{
 .col{
     /* flex-grow: 1; */
     width: calc( 100% / 6 - 16px);
-    /* height: 180px; */
+  
     margin: 8px;
     justify-items: center;
 
@@ -248,3 +246,70 @@ h2{
     
 }
 
+/* FOOTER */
+footer{
+    color: white;
+}
+
+.row-footer{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin-bottom: 20px; */
+    align-items: center;
+}
+
+.col-10{
+    width: calc((100% / 12) * 10 );
+    max-width: 100%;
+}
+
+.col-2{
+    width: calc((100% / 12) * 2 );
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+.row-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.row-icons, .fas{
+    padding: 10px;
+}
+
+#player-sinister{
+    margin-left: 5px;
+    align-items: center ;
+}
+
+.row-second-icons{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+/* Small  */
+@media (min-width: 576px) { ... }
+
+ /* Medium  */
+@media (min-width: 768px) { ... }
+
+ /* Large  */
+ @media (min-width: 992px) { ... }
+
+ /* Extra  */
+@media (min-width: 1200px) { ... }
